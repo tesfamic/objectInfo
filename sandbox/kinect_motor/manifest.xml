@@ -1,0 +1,29 @@
+<package>
+  <description brief="kinect_motor">
+
+     kinect_motor
+
+  </description>
+  <author>tesfamic</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kinect_motor</url>
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+  <!--buildtool_depend>catkin</buildtool_depend> -->
+  <build_depend>libusb-1.0-dev</build_depend>
+  <!--build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>-->
+  <!-- <run_depend>libusb-1.0-0</run_depend> -->
+  <run_depend>libusb-1.0-dev</run_depend>
+  <!--run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>-->
+
+
+</package>
+
+

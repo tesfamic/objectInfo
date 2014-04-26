@@ -1,0 +1,6 @@
+hmin 6
+hmax 256
+smin 213
+smax 256
+vmin 154
+vmax 256

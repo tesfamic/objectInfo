@@ -1,0 +1,32 @@
+<package>
+  <description brief="ceilbot">
+
+     ceilbot
+
+  </description>
+  <author>tesfamic</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ceilbot</url>
+
+
+  <rosdep name="qt4"/>
+
+  <!-- rosbuild1 -->
+  <depend package="qt_build"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+  <depend package="opencv2"/>
+  <depend package="pcl"/>
+  <depend package="pcl_ros"/>
+  <build_depend>libusb-1.0-dev</build_depend>
+  <run_depend>libusb-1.0-dev</run_depend>
+  <rosbuild2>
+    <depend package="qt_build"/>
+    <depend package="roscpp"/>
+  </rosbuild2>
+  
+</package>

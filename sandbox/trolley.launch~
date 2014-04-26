@@ -1,0 +1,3 @@
+<launch>
+ <node name="trolleyControl" pkg="trollyControl" type="trollyControl" />
+</launch>
